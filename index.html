@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Balcadur, compra de ropa, oufits completos, accesorios y zapatos">
+  <meta name="keywords" content="zapatos, ropa, pantalones, balcadur,accesorios, abrigos y remeras">
+  <!-- Faviconn -->
+  <link rel="icon" type="image/jpg" href="./imagenes/favicon.jpg"/ alt="este es mi favicon">
+  <!--Google Fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=DynaPuff:wght@500&family=Merienda:wght@300&display=swap"
+    rel="stylesheet">
+  <!-- CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- CSS -->
+  <link href="./css/style.css" rel="stylesheet" type="text/css">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <title>BALCADUR</title>
+</head>
+
+<body class="body2">
+  <div class="preloader">
+
+    <div class="sixtin">
+      <img class="sixtin" width="95px" src="./imagenes/balcadur.jpg" alt="logo">
+    </div>
+    <!-- Animacion -->
+    <div class="lds-ring loader p-5px">
+      <div>
+
+      </div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-transparent sticky-top">
+      <div class="container-fluid align-items-center">
+        <a class="navbar-brand" href="./index.html">
+          <h1>BALCADUR</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+          <ul class="navbar-nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">
+                <strong>HOME</strong>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./paginas.html/tienda.html">
+                <strong>TIENDA</strong>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="./paginas.html/sale.html" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <strong class="header__string-color">SALE</strong>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./paginas.html/abriase.html#abrigos">ABRIGOS</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./paginas.html/abriase.html#calzados">CALZADOS</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./paginas.html/accesorios.html">
+                <strong>ACCESORIOS</strong>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./paginas.html/contacto.html">
+                <strong>CONTACTO</strong>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <hr>
+  <!-- Carousel -->
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner col-md-7 text-center text-md-start">
+      <div class="carousel-item active">
+        <img src="./imagenes/Fondo1.jpg" width="100%" height="500px" class="d-block w-100" alt="FotoLocal">
+      </div>
+      <div class="carousel-item">
+        <video width="100%" height="500px" controls autoplay loop>
+          <source src="./imagenes/Video.mp4 " type="video/mp4">
+          <source src="./imagenes/Video.mp4" type="video/ogg">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagenes/Fondo2.jpg" width="100%" height="500px" class="d-block w-100"
+          alt="chico con campera negra">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagenes/1 (3).png" width="100%" height="500px" class="d-block w-100" alt="campera marron">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagenes/Foto42.jpg" width="100%" height="500px" class="d-block w-100" alt="foto oufit">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Antes</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Despues</span>
+    </button>
+  </div>
+  <hr>
+  <h2>LO MÁS VENDIDO</h2>
+  <!-- Galeria Uno -->
+  <div class="galeria-productos">
+
+    <div>
+      <img src="./imagenes/Foto12.jpg" alt="CamperaGrisNegro">
+    </div>
+
+    <div>
+      <img src="./imagenes/Foto14.jpg" alt="CamperaBlanca">
+    </div>
+
+    <div>
+      <img src="./imagenes/Foto15.jpg" alt="CamperaNegra">
+    </div>
+
+    <div>
+      <img src="./imagenes/Foto16.jpg" alt="CamperaNegraconAmarillo">
+    </div>
+  </div>
+  <!-- Galeria Dos  -->
+  <div class="galeria-productos">
+    <div>
+      <img src="./imagenes/3 (1).jpg" alt="JeansNegro">
+    </div>
+    <div>
+      <img src="./imagenes/4 (1).jpg" alt="JeansBlanco">
+    </div>
+
+    <div>
+      <img src="./imagenes/4.jpg" alt="JeanNegro">
+    </div>
+
+    <div>
+      <img src="./imagenes/2.jpg" alt="JeansNegro">
+    </div>
+  </div>
+  <!-- Galeria Tres -->
+  <div class="galeria-productos">
+    <div>
+      <img src="./imagenes/5 (1).jpg" alt="GafasNegroTransparent">
+    </div>
+
+    <div>
+      <img src="./imagenes/6 (1).jpg" alt="GafasBlack">
+    </div>
+
+    <div>
+      <img src="./imagenes/7 (1).jpg" alt="RemeraTropic1">
+    </div>
+
+    <div>
+      <img src="./imagenes/8 (1).jpg" alt="RemeraTropic2">
+    </div>
+  </div>
+  <!-- Galeria Cuatro -->
+  <div class="galeria-productos">
+
+    <div>
+      <img src="./imagenes/9 (1).jpg" alt="ZapatosHakimi9">
+    </div>
+
+    <div class="foto2">
+      <img src="./imagenes/10.jpg" alt="ZapatosDiMariaP80">
+    </div>
+
+    <div class="foto3">
+      <img src="./imagenes/11.jpg" alt="ZapatosLpro1">
+    </div>
+
+    <div class="foto4">
+      <img src="./imagenes/12.jpg" alt="ZapatosCampeones">
+    </div>
+
+  </div>
+  <hr>
+  <!-- Cuadrito5 -->
+  <div class="card-group">
+    <div class="card px-2">
+      <div class="card-body">
+        <h5 class="card-title">
+          <a href="./paginas.html/abriase.html" style="color: black; text-decoration: none;">Abrigos</a>
+        </h5>
+        <img src="./imagenes/13.jpg" class="card-img-top" alt="CamperaBlanca">
+        <p class="card-text"><small class="text-body-secondary">Estilo & Tendencia</small></p>
+      </div>
+    </div>
+    <div class="card px-2">
+      <div class="card-body">
+        <h5 class="card-title">
+          <a href="./paginas.html/abriase.html#calzados" style="color: black; text-decoration: none;">Calzados</a>
+        </h5>
+        <img src="./imagenes/10.jpg" class="card-img-top" alt="Calzados">
+        <p class="card-text"><small class="text-body-secondary">Resistencia & durabilidad</small></p>
+      </div>
+    </div>
+    <div class="card px-2">
+      <div class="card-body">
+        <h5 class="card-title">
+          <a href="./paginas.html/tienda.html#outfitx1" style="color: black; text-decoration: none;">Tienda</a>
+        </h5>
+        <img src="./imagenes/15.jpg" class="card-img-top" alt="Accesorios">
+        <p class="card-text"><small class="text-body-secondary">Precios reducidos & Promociones</small></p>
+      </div>
+    </div>
+    <div class="card px-2">
+      <div class="card-body">
+        <h5 class="card-title">
+          <a href="./paginas.html/accesorios.html#mi-modalsito1"
+            style="color: black; text-decoration: none;">Accesorios</a>
+        </h5>
+        <img src="./imagenes/16.jpg" class="card-img-top" alt="accesorios">
+        <p class="card-text"><small class="text-body-secondary">Calidad & diseño</small></p>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <!-- Footer -->
+  <footer class="container-fluid pt-3">
+    <div id="footer_content" class="row">
+
+      <div id="footer_contacts" class="col-md-3 col-12">
+        <img src="../imagenes/balcadur.jpg" style="width: 80%; height: 40%;" alt="logo" ;>
+        <p>It's all about your dreams. </p>
+
+        <div id="footer_social_media">
+          <a href="https://www.instagram.com/balcadur/" class="footer-link" id="instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="https://www.facebook.com/" class="footer-link" id="facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+
+          <a href="https://web.whatsapp.com/" class="footer-link" id="whatsapp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+
+      <ul class="footer-list col-md-3 col-12">
+        <li>
+          <h4>Información</h4>
+        </li>
+        <li>
+          <a href="./tienda.html#outfitx1" class="footer-link">Nueva colleción</a>
+        </li>
+        <li>
+          <a href="./abriase.html#cuadrito4" class="footer-link">Producto Especial</a>
+        </li>
+        <li>
+          <a href="./accesorios.html#cadenita2" class="footer-link">Producto de alta calidad</a>
+        </li>
+      </ul>
+
+      <ul class="footer-list col-md-3 col-12">
+        <li>
+          <h4>Dirección</h4>
+        </li>
+        <li>
+          <a href="https://goo.gl/maps/5L2p7CimbqTXNvHv5" class="footer-link">100 Flores, CABA Argentina. 1902CP</a>
+        </li>
+        <li>
+          <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
+            class="footer-link">Balcadur@gmail.com</a>
+        </li>
+        <li>
+          <a href="https://web.whatsapp.com/" class="footer-link">+54 911 12 345678</a>
+        </li>
+      </ul>
+      <div id="footer_subscribe" class="col-md-3 col-12">
+        <h4>Subscribir</h4>
+
+        <p>
+          Ingrese su correo electrónico para recibir notificaciones sobre
+          nuestras actualizaciones de categorias y precios
+        </p>
+        <div id="input_group">
+          <input type="email" id="email">
+          <button>
+            <i class="fa-regular fa-envelope"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="footer_copyright">
+      &#169
+      2023, www.balcadur.com
+    </div>
+  </footer>
+  <!-- JS -->
+  <script>
+    window.addEventListener('load', () => {
+      const preloader = document.querySelector('.preloader');
+      setTimeout(() => {
+        preloader.style.display = 'none';
+        document.body.style.overflowY = 'auto';
+      }, 800);
+    });
+  </script>
+</body>
+<!-- CDN de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</html>
